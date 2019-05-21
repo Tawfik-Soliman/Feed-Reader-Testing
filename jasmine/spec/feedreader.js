@@ -34,7 +34,7 @@ $(function() {
          * and that the URL is not empty.
          */
 
-         // Itereate on each elemnt of allFeeds array and check it has url defined and not empty
+         // Itereate on each element of allFeeds array and check it has url defined and not empty
          it('feed url defined and not empty',function() {
             allFeeds.forEach( feed => {
                 expect(feed.url).toBeDefined();
@@ -47,7 +47,7 @@ $(function() {
          * and that the name is not empty.
          */
 
-         // Itereate on each elemnt of allFeeds array and check it has name defined and not empty
+         // Itereate on each element of allFeeds array and check it has name defined and not empty
          it('feed name defined and not empty', function() {
             allFeeds.forEach( feed => {
                 expect(feed.name).toBeDefined();
