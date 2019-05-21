@@ -74,7 +74,7 @@ $(function() {
          // const body = document.querySelector('body');
          // const menuClicked = document.querySelector('.menu-icon-link');
 
-         // check that menu is hidden by default by Checking class menu-hidden
+         // check that menu is hidden by default by Checking class menu-hidden in body element
          it('menu is hidden by default', function() {
             // expect(body.classList.contains('menu-hidden')).toBe(true);
             expect($('body').hasClass('menu-hidden')).toBe(true);
@@ -97,11 +97,11 @@ $(function() {
 
             $('.menu-icon-link').click(); /*simulate click on menu*/
             expect($('body').hasClass('menu-hidden')).toBe(false); //when clicked menu come vissible \
-                                                                   //after removing menu-hidden class
+                                                                   //after removing menu-hidden class from body element
 
              $('.menu-icon-link').click(); /*simulate click on menu*/
             expect($('body').hasClass('menu-hidden')).toBe(true); //when clicked menu come hidden 
-                                                                  //after adding menu-hidden class
+                                                                  //after adding menu-hidden class to body element
 
 
           })

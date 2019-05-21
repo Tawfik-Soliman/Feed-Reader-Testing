@@ -8,6 +8,7 @@ This is my _fourth_ project in Udacity Front-End Nano Degree.
 - Jasmine dependecies is added to the index.html file
 - All tests written in **feedreader.js** file inside  **jasmine/spec** folder
 - double click the **index.html** file
+- You can use any browser.
 - All tests will run automatically
 
 ## What to test
